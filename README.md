@@ -22,9 +22,9 @@ But this isn’t the case.  Actually, if you look at the [network graph](https:/
 `merge —no-ff` and `squash` look very similar.
 
 See how both both `using-merge-no-ff` and `using-squash` only have 1 commit in mainline?  
-We can examine the commit [from `using-merge-no-ff`](add url).
+We can examine the commit [from `using-merge-no-ff`](https://github.com/jiaweihli/git-workflow-strategies-example/commit/93f6de5073a11cc1b6d4d62e89b8c4da6f0e6bcb).
 ![diff, using --merge-no-ff](https://raw.githubusercontent.com/jiaweihli/git-workflow-strategies-example/master/images/diff-using-merge-no-ff.png)
-And, we can examine the commit [from `using-squash`](add url).
+And, we can examine the commit [from `using-squash`](https://github.com/jiaweihli/git-workflow-strategies-example/commit/3c4417df87c588e07325113d1f70831c5bedb559).
 ![diff, using squash](https://raw.githubusercontent.com/jiaweihli/git-workflow-strategies-example/master/images/diff-using-squash.png)
 
 They’re actually the same!  You can revert both of these commits to revert `new-feature` if you need to.  
